@@ -2,7 +2,7 @@ import { icons } from '../data/icons';
 
 class IconElement extends HTMLElement {
   static get observedAttributes() {
-    return ['name', 'size', 'color'];
+    return ['name'];
   }
 
   constructor() {
@@ -20,8 +20,6 @@ class IconElement extends HTMLElement {
 
   render() {
     const name = this.getAttribute('name');
-    const size = this.getAttribute('size') || '24';
-    const color = this.getAttribute('color') || '#e9e9f2';
 
     const icon = icons.find(i => i.id === name);
     if (!icon) {
@@ -29,22 +27,24 @@ class IconElement extends HTMLElement {
       return;
     }
 
-    let svg = icon.svg
-      .replace('width="24"', `width="${size}"`)
-      .replace('height="24"', `height="${size}"`);
-
-    if (svg.includes('stroke=')) {
-      svg = svg.replace(/stroke="[^"]*"/g, `stroke="${color}"`);
-    }
-
-    if (svg.includes('fill=')) {
-      svg = svg.replace(/fill="[^"]*"/g, `fill="${color}"`);
-    } else {
-      svg = svg.replace('<svg ', `<svg fill="${color}" `);
-    }
-
     const template = document.createElement('template');
-    template.innerHTML = svg;
+    template.innerHTML = `
+      <style>
+        :host {
+          --icon-color: #e9e9f2; /* Default color */
+          --icon-size: 24px; /* Default size */
+          display: inline-block; /* Ensure the element takes up space */
+        }
+
+        svg {
+          width: var(--icon-size);
+          height: var(--icon-size);
+          stroke: var(--icon-color);
+          fill: var(--icon-color); /* Add fill for filled icons */
+        }
+      </style>
+      ${icon.svg}
+    `;
 
     if (this.shadowRoot) {
       this.shadowRoot.innerHTML = '';
