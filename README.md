@@ -30,13 +30,13 @@ Une fois le script CDN inclus, vous pouvez utiliser les icônes n'importe où da
 
 ```html
 <!-- Utilisation d'une icône -->
-<i-icon name="home"></i-icon>
-
-<!-- Avec une taille personnalisée (via CSS) -->
-<i-icon name="search" style="--icon-size: 32px;"></i-icon>
-
-<!-- Avec une couleur personnalisée (via CSS) -->
-<i-icon name="arrow-right" style="--icon-color: #4F46E5;"></i-icon>
+<i-icon name="joysline01"></i-icon>
+-------------
+CSS exemple styles:
+i-icon {
+    --icon-color: rgb(255, 255, 255);
+    --icon-size: 24px;
+  }
 ```
 
 Vous pouvez contrôler la taille et la couleur des icônes en utilisant des variables CSS (custom properties).
@@ -51,13 +51,7 @@ function MyComponent() {
   return (
     <div>
       {/* Utilisation d'une icône */}
-      <i-icon name="home"></i-icon>
-
-      {/* Avec une taille personnalisée (via CSS) */}
-      <i-icon name="search" style={{ "--icon-size": "32px" }}></i-icon>
-
-      {/* Avec une couleur personnalisée (via CSS) */}
-      <i-icon name="arrow-right" style={{ "--icon-color": "#4F46E5" }}></i-icon>
+      <i-icon name="springbook"></i-icon>
     </div>
   );
 }
