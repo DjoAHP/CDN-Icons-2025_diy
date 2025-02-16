@@ -3,15 +3,17 @@ import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { tomorrow } from 'react-syntax-highlighter/dist/esm/styles/prism';
 
 export const Documentation: React.FC = () => {
-  const cdnExample = `<script src="https://cdn.iconic-cdn.com/iconic.min.js"></script>`;
+  const cdnExample = `<script src="https://cdn.jsdelivr.net/npm/@jodevahp/icons-ahp-library@1.0.2/dist/iconic.js" type="module"></script>`;
   const usageExample = `<!-- Utilisation d'une icône -->
-<i-icon name="home"></i-icon>
+<i-icon name="springbook"></i-icon>
+-------------
+CSS exemple styles:
+i-icon {
+    --icon-color: rgb(255, 255, 255);
+    --icon-size: 24px;
+  }
+    `;
 
-<!-- Avec une taille personnalisée -->
-<i-icon name="search" size="24"></i-icon>
-
-<!-- Avec une couleur personnalisée -->
-<i-icon name="arrow-right" color="#4F46E5"></i-icon>`;
 
   return (
     <div className="container mx-auto px-4 py-8">

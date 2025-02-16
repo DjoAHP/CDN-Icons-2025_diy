@@ -89,4 +89,4 @@ git push origin main
 }
 ```
 npm run build:lib
-npm publish
+npm publish --access public
