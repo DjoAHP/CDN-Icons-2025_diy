@@ -9,5 +9,5 @@ export interface Icon {
 export interface IconCategory {
   id: string;
   name: string;
-  description: string;
+
 }

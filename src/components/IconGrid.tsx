@@ -22,7 +22,7 @@ export const IconGrid: React.FC = () => {
   };
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="custom-container">
       <div className="flex flex-col md:flex-row items-center justify-between mb-8">
         <div className="mb-4 md:mb-0">
           <select
@@ -46,7 +46,7 @@ export const IconGrid: React.FC = () => {
           />
         </div>
       </div>
-      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
+      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-10 gap-4">
         {filteredIcons.map(icon => (
           <div
             key={icon.id}

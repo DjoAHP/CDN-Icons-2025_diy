@@ -12,7 +12,7 @@ Ajoutez Iconic CDN à votre projet en incluant notre script dans votre HTML :
 <script src="https://cdn.jsdelivr.net/npm/@jodevahp/icons-ahp-library@1.0.3/dist/iconic.js" type="module"></script>
 ```
 
-**Important:** Assurez-vous de remplacer `1.0.1` par la version la plus récente de la librairie. Vous pouvez trouver la dernière version sur [npm](https://www.npmjs.com/package/@jodevahp/icons-ahp-library).
+**Important:** Assurez-vous de remplacer `1.0.3` par la version la plus récente de la librairie. Vous pouvez trouver la dernière version sur [npm](https://www.npmjs.com/package/@jodevahp/icons-ahp-library).
 
 N'oubliez pas de mettre à jour le lien CDN dans la documentation de votre site : [https://charming-rugelach-c31ab2.netlify.app](https://charming-rugelach-c31ab2.netlify.app)
 
@@ -35,7 +35,7 @@ Une fois le script CDN inclus, vous pouvez utiliser les icônes n'importe où da
 CSS exemple styles:
 i-icon {
     --icon-color: rgb(255, 255, 255);
-    --icon-size: 24px;
+    --icon-size: 30px;
   }
 ```
 
