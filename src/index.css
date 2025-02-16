@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900;
+    background-attachment: fixed;
+  }
+}
+
+.glass {
+  @apply bg-gray-900/40 backdrop-blur-md border border-gray-700/50;
+}
+
+.glass-hover {
+  @apply hover:bg-gray-800/50 transition-colors duration-300;
+}
+
+.glass-card {
+  @apply glass rounded-xl shadow-lg shadow-purple-500/10;
+}
