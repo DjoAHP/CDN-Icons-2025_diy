@@ -9,7 +9,7 @@ Une bibliothèque d'icônes SVG moderne et optimisée pour le web.
 Ajoutez Iconic CDN à votre projet en incluant notre script dans votre HTML :
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@jodevahp/icons-ahp-library@1.0.1/dist/iconic.js" type="module"></script>
+<script src="https://cdn.jsdelivr.net/npm/@jodevahp/icons-ahp-library@1.0.3/dist/iconic.js" type="module"></script>
 ```
 
 **Important:** Assurez-vous de remplacer `1.0.1` par la version la plus récente de la librairie. Vous pouvez trouver la dernière version sur [npm](https://www.npmjs.com/package/@jodevahp/icons-ahp-library).

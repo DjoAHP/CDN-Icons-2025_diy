@@ -3,7 +3,7 @@ import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { tomorrow } from 'react-syntax-highlighter/dist/esm/styles/prism';
 
 export const Documentation: React.FC = () => {
-  const cdnExample = `<script src="https://cdn.jsdelivr.net/npm/@jodevahp/icons-ahp-library@1.0.2/dist/iconic.js" type="module"></script>`;
+  const cdnExample = `<script src="https://cdn.jsdelivr.net/npm/@jodevahp/icons-ahp-library@1.0.3/dist/iconic.js" type="module"></script>`;
   const usageExample = `<!-- Utilisation d'une icône -->
 <i-icon name="springbook"></i-icon>
 -------------
