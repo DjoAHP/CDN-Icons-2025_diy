@@ -1,6 +1,6 @@
 {
   "name": "@jodevahp/icons-ahp-library",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "type": "module",
   "private": false,
   "description": "Une bibliothèque d'icônes SVG moderne et optimisée pour le web",
