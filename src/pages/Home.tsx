@@ -24,7 +24,7 @@ export const Home: React.FC = () => {
             </Link>
             <Link
               to="/docs"
-              className="inline-flex items-center px-6 py-3 glass glass-hover text-purple-400 rounded-lg"
+              className="inline-flex items-center px-6 py-3 glass glass-hover text-neutral-200 rounded-lg"
             >
               Documentation
             </Link>
