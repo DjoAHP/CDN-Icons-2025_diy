@@ -1,6 +1,6 @@
 {
   "name": "@jodevahp/icons-ahp-library",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "type": "module",
   "private": false,
   "description": "Une bibliothèque d'icônes SVG moderne et optimisée pour le web",
@@ -27,6 +27,7 @@
     "prepublishOnly": "npm run build:lib"
   },
   "dependencies": {
+    "@jodevahp/icons-ahp-library": "^1.0.7",
     "lucide-react": "^0.344.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
