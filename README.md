@@ -9,10 +9,10 @@ Une bibliothèque d'icônes SVG moderne et optimisée pour le web.
 Ajoutez Iconic CDN à votre projet en incluant notre script dans votre HTML :
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@jodevahp/icons-ahp-library@1.0.13/dist/iconic.js" type="module"></script>
+<script src="https://cdn.jsdelivr.net/npm/@jodevahp/icons-ahp-library@1.0.14/dist/iconic.js" type="module"></script>
 ```
 
-**Important:** Assurez-vous de remplacer `1.0.13` par la version la plus récente de la librairie. Vous pouvez trouver la dernière version sur [npm](https://www.npmjs.com/package/@jodevahp/icons-ahp-library).
+**Important:** Assurez-vous de remplacer `1.0.14` par la version la plus récente de la librairie. Vous pouvez trouver la dernière version sur [npm](https://www.npmjs.com/package/@jodevahp/icons-ahp-library).
 
 N'oubliez pas de mettre à jour le lien CDN dans la documentation de votre site : [https://charming-rugelach-c31ab2.netlify.app](https://charming-rugelach-c31ab2.netlify.app)
 
